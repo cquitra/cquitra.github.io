@@ -1,2 +1,1 @@
-# cquitra.github.io
-cquitra的博客
+访问请前往：https://cquitra.js.cool

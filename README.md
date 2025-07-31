@@ -1,1 +1,2 @@
-访问请前往：https://cquitra.js.cool
+## cquitra博客内测版
+正式版：https://cquitra.js.cool

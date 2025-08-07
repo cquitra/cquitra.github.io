@@ -28,10 +28,11 @@ document.addEventListener('DOMContentLoaded', function () {
     cardHistory()
     document.addEventListener('pjax:complete', cardHistory);
 })
+
  let ipLocation; // 确保 ipLocation 在全局范围内定义
 
 // 进行 fetch 请求
-fetch('https://api.nsmao.net/api/ip/query?key=你的key') //申请key:https://api.nsmao.net
+fetch('https://api.nsmao.net/api/ip/query?key=oZqyhubEHUfiZvqUjowAiWtbbf') //申请key:https://api.nsmao.net
 .then(response => {
 if (!response.ok) {
 throw new Error('Network response was not ok');
@@ -68,7 +69,7 @@ console.error('ipLocation data is not available.');
 return;
 }
 
- let dist = getDistance(121.413921, 31.089290, ipLocation.data.lng, ipLocation.data.lat); // 修改自己的经度（121.413921）纬度（31.089290）
+ let dist = getDistance(113.185579, 22.602665, ipLocation.data.lng, ipLocation.data.lat); // 修改自己的经度（121.413921）纬度（31.089290）
  let pos = ipLocation.data.country;
  let ip = ipLocation.ip;
  let posdesc;
